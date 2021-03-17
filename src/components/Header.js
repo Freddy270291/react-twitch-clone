@@ -1,4 +1,6 @@
 import React from "react";
+import { Avatar } from "@material-ui/core";
+import "./Header.css";
 
 const Header = () => {
   return (
@@ -14,7 +16,7 @@ const Header = () => {
         <div className="header__verticalLine"></div>
         <h2>Esports</h2>
         <h2>Music</h2>
-        <i classname="fas fa-ellipsis-h"></i>
+        <i className="fas fa-ellipsis-h"></i>
       </div>
 
       <div className="header__center">
@@ -29,10 +31,13 @@ const Header = () => {
           <i className="fas fa-crown"></i>
           <i className="fas fa-inbox"></i>
           <i className="fas fa-comment-alt"></i>
+
           <div className="header__rightBits">
             <i className="fas fa-gem"></i>
             <h4>Get Bits</h4>
           </div>
+
+          <Avatar />
         </div>
       </div>
     </div>
@@ -40,5 +45,3 @@ const Header = () => {
 };
 
 export default Header;
-
-// 40:00
