@@ -8,18 +8,18 @@ const Sidebar = () => {
       <div className="sidebar__top">
         <h5>FOLLOWED CHANNELS</h5>
         <Channel
-          avatar="https://i.picsum.photos/id/888/200/300.jpg?hmac=WJcjbSQSOOzfBpPsUKZHZzjBCJjDv43RwJ8P8Ag2xj4"
+          avatar="https://i.picsum.photos/id/882/200/200.jpg?hmac=cVjON67mkFjmhVFCS4lYVS-iFp1D3KP-khmMizQxxhQ"
           name="cleverprogrammer"
           followers="816k"
         />
         <Channel
-          avatar="https://i.picsum.photos/id/379/200/300.jpg?hmac=IEcRQyv-DIaRsldE8jIdMRW5IHCTyemefU-bbCJpY34"
+          avatar="https://i.picsum.photos/id/514/200/200.jpg?hmac=ywW8zoc6PM1wbLeZvKJPGczujmQgEM7QOTaWiOTjhjM"
           name="PiNNyBoy"
           followers="215k"
         />
         <h5>RECOMMENDED CHANNELS</h5>
         <Channel
-          avatar="https://i.picsum.photos/id/400/200/300.jpg?hmac=FD74WIE42b0qUFf-QggfWsoHPJqcGgjSatRvUM9dAws"
+          avatar="https://i.picsum.photos/id/194/200/200.jpg?hmac=f1VYjvgDG_6vPwJyTb-Xl1HpXKM23stmhFUnmPE_yL8"
           name="@davidrakosi"
           followers="1625"
         />
