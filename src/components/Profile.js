@@ -31,7 +31,27 @@ const Profile = () => {
       <div className="profile__recent">
         <h2>Recent broadcasts</h2>
         <div className="profile__recentItems">
-          <RecentItem />
+          <RecentItem
+            url={"https://www.youtube.com/embed/ktjafK4SgWM"}
+            title={"Learn the MERN Stack - Full tutorial for Beginners"}
+          />
+          <RecentItem
+            url={"https://www.youtube.com/embed/DFzP6gA0tkQ"}
+            title={"How to earn $1.000 as a freelancer"}
+          />
+          <RecentItem
+            url={"https://www.youtube.com/embed/l1yXs-7RU5E"}
+            title={"Let'sbuild an Alexa Skill in 2020"}
+          />
+          <RecentItem
+            url={"https://www.youtube.com/embed/5NlVMTYGlwg"}
+            title={"It's time to learn REACT 2.0"}
+          />
+        </div>
+        <div className="profile__categories">
+          <h2>cleverprogrammer's recently streamed categories</h2>
+          <img src="https://static-cdn.jtvnw.net/ttv-boxart/Science%20&%20Technology-285x380.jpg" />
+          <h3>Science & Technology</h3>
         </div>
       </div>
     </div>

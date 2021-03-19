@@ -5,3 +5,7 @@
   height: 100vh;
   overflow: scroll;
 }
+
+.body--left {
+  width: 96.5%;
+}
